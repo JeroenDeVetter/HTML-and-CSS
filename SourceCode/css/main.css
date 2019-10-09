@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Domine|Permanent+Marker&display=swap');
 body {
 
     text-align: center;
+    font-family: 'Permanent Marker', cursive;
     position: absolute;
     background-image: -webkit-linear-gradient(45deg, #3ec1d3  25%, #ff9a00  60%, #ff165d 100%);
     background-repeat:no-repeat;
@@ -14,12 +16,19 @@ img {
     width:250px;
 }
 
+.img1 {
+    width: 150px;
+}
 
-
+.img2 {
+    width: 200px;
+}
 
 a {
     display: flex;
     color: black;
+    margin-top: 10px;
+    font-family: 'Domine', serif;
     text-decoration: none;
     justify-content: center;
     min-width: 300px;
@@ -43,4 +52,26 @@ a {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
+      margin-bottom: 200px;
+  }
+
+  .text {
+      
+      font-size: 20px;
+  }
+
+  h1 {
+      font-style: italic;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+  }
+
+  h2 {
+      margin-top: 500px;
+      margin-bottom: 60px;
+  }
+
+  p {
+      margin-bottom: 40px;
+      margin-top: 100px;
   }
